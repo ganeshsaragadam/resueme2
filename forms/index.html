@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School forms</title>
+</head>
+<body>
+    <h1 align="center">
+      J.M.J ENGLISH MEDIUM HIGH SCHOOL REGESTATION 
+    </h1>
+    <fieldset>
+        <legend>
+           <b> Personal Details</b>
+        </legend>
+    <form action="action.py" method="get">
+        <label for="nam"> First Name -</label>
+        <input type="text" id="nam" name="name" pattern="[A-z,a-z, maxlength=9]">
+        <label for="namee"> last Name -</label>
+        <input type="text" required id="namee" name="namee ">
+        <br/><br/>
+        <label for="Date of Birth" input type="Date">Date Of Birth -</label>
+        <input type="date" name="date" id="date">  
+                <label for="age" input type="numbers">Age -</label>
+        <input type="age" name="age" id="age">
+        <br><br>
+        <label for="Father">Father's Name -</label>
+        <input type="text" id="Father" name="father">
+        <br><br>
+        <label for="Mother">Mother's Name -</label>
+        <input type="text" id="Mother" name="Mother">
+        <br><br>
+        <label for="Addhar"> Student Addhar Number -</label>
+        <input type="numers" maxlength="16" id="Addhar" name="addhar">
+        <p>Address For Communication :</p>
+            <textarea cols="80" rows="5" value="address"> </textarea>
+        <p> Permant Address :</p>
+            <textarea cols="80" rows="5" value="address"> </textarea>
+     <br><br>
+     <p>Enter The Identification Marks : </p>
+    <textarea cols="100" rows="3" value="Enter The Identification Marks"></textarea>
+    <br><br>
+     <label>   
+        Phone :  
+        </label>  
+        <input type="text" name="country code"  value="+91" size="2"/>   
+        <input type="text" name="phone" size="10"/> <br> <br> 
+        <label for="email">Email id :</label>
+        <input type="email" id="email" name="email">
+        <br/><br/>
+        <label for="Password">Password :</label>
+        <input type="password" name="pwd" id="password">
+        <br/><br/>
+        <label for="PPassword"> Confirm Password :</label>
+        <input type="ppassword" name="ppwd" id="ppassword">
+    
+    </fieldset>
+    <hr>
+    <br>
+    <label>
+     <u><b>Select Board :</b></u>
+    </label>
+    <select>
+    <option value="CBSE">CBSE</option>
+    <option value="ICSE">ICSE</option>
+    <option value="ICSE/CBSE">ICSE/CBSE</option>
+    <option value="STATE">STATE</option>
+    </select>
+    <br>
+    <br>
+    <label>Gender :</label>
+        <input type="radio" name="gender" id="male" value=" male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="other">
+        <label for="others">Others</label>
+        <br><br/>
+    <p><u><b>Application For Which Class :</u></b></p>
+    <input type="radio" id="class5" name="class" value="class5">
+      <label for="class5">Class5</label>
+        <input type="radio" id="class6" name="class" value="class6">
+          <label for="class6">Class6</label>
+          <input type="radio" id="class7" name="class" value="class7">
+          <label for="class7">Class7</label>
+          <input type="radio" id="class8" name="class" value="class8">
+          <label for="class8">Class8</label>
+        <input type="radio" id="class9" name="class" value="class9">
+          <label for="class9">Class9</label>
+        <input type="radio" id="class10" name="class" value="class10">
+          <label for="class10">Class 10</label><br>
+        <br>
+        <tr>
+            <td><u><b>Hobbies :<b></u></b><br /><br/></td>
+            <td>
+            <input type="checkbox" name="HobbyDrawing" value="Drawing" />
+            Drawing
+            <input type="checkbox" name="HobbySinging" value="Singing" />
+            Singing
+            <input type="checkbox" name="HobbyDancing" value="Dancing" />
+            Dancing
+            <input type="checkbox" name="HobbyCooking" value="Cooking" />
+            Sketching
+            <br />
+            <input type="checkbox" name="HobbyOther" value="Other">
+            Others
+            <input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />
+            (Max 50 Characters Allowed)
+            </td>
+            </tr>
+     <hr>
+
+    <p><u><b>Avails Transport Details :</b></u></p>
+    <input type="radio" name="school transport" id="school transport1" value="school transport1">
+    <label for="Yes">Yes</label>
+    <input type="radio" name="school transport" id="school transport2" value="school transport2">
+    <label for="No">No</label>
+    <br>
+    <p> pickup point :</p>
+            <textarea cols="80" rows="1" value="pickup"> </textarea>
+            <p> drop point :</p>
+            <textarea cols="80" rows="1" value="drop"> </textarea>
+    <br>
+    <br>
+ <hr>
+ <input type="Reset" value="Reset">
+ <button type="save" value="Save">Save</button>
+        </form>
+    <br>
+    <br>
+<div >
+    <a href="indeex.html" class="next"><button>Next &raquo;</button></a>
+</div>
+
+</body>
+</html>
